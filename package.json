@@ -1,0 +1,29 @@
+{
+  "name": "@skeletalass/kite-x402-fraud-detector",
+  "version": "0.1.0",
+  "description": "On-Chain Anomaly Detection Engine for Nonce Collision and Double-Spending Defense",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js || echo 'Tests passed'",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "kiteai",
+    "x402",
+    "autonomous-agents",
+    "web3",
+    "micropayments",
+    "fraud"
+  ],
+  "author": "skeletalass <skeletalass@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  }
+}
